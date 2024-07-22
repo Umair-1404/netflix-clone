@@ -14,32 +14,92 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <div class="container-fluid">
-          <a class="navbar-brand"
-            ><img src="images/logo.png" alt="Netflix" width="100px"
-          /></a>
-          <form action="">
-            <select name="" id="">
-              <option value="">English</option>
-              <option value="">Hindi</option>
-            </select>
-            <button>Sign In</button>
+      <section class="bg-img">
+        <div class="container">
+          <nav class="navbar">
+            <a class="navbar-brand"
+              ><img src="images/logo.png" alt="Netflix" width="200px"
+            /></a>
+            <form action="">
+              <select name="lang" id="lang">
+                <option value="">English</option>
+                <option value="">Hindi</option>
+              </select>
+              <button>Sign In</button>
+            </form>
+          </nav>
+        </div>
+        <div class="headers">
+          <h1>Unlimited movies, TV shows and more</h1>
+          <h3 class="my-3">Watch anywhere. Cancel anytime.</h3>
+          <h5>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h5>
+
+          <form class="home-form">
+            <input
+              class="email"
+              type="email"
+              placeholder="Email address"
+              minlength="5"
+              maxlength="50"
+            />
+            <button class="form-btn">Get Started ></button>
           </form>
         </div>
-      </nav>
-      <div class="headers">
-        <h1>Unlimited movies, TV shows and more</h1>
-        <h3>Watch anywhere. Cancel anytime.</h3>
-        <h5>
-          Ready to watch? Enter your email to create or restart your membership.
-        </h5>
-      </div>
-      <form>
-        <input type="email" placeholder="Email address" />
-        <button clas>Get Started ></button>
-      </form>
-      <img src="images/bg.jpg" alt="image" width="1000px" />
+      </section>
     </header>
+    <div class="breakpoint"></div>
+    <section class="second-sec">
+      <div class="container">
+        <div class="row" style="height: 490px">
+          <div class="col-lg-6 tv-grid">
+            <h1 class="text-start">Enjoy on your TV</h1>
+            <h4 class="text-start">
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </h4>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/tv.png" alt="" />
+            <video
+              src="images/video-tv-in-0819.m4v"
+              class="tv-vid"
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="breakpoint"></div>
+    <section class="third-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="images/mobile-0819.jpg" alt="" />
+            <div class="div-over-img">
+              <div>
+                <img src="images/boxshot.png" alt="box-shot" class="boxshot-img" height="80px">
+              </div>
+              <div>
+                <p class="boxshot-text text-white"> Stranger Things  <a href="#">Downloading...</a></p>       
+              </div>
+              <div>
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" alt="gif" class="gif" height="80px">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 tv-grid">
+            <h1 class="text-start">Download your shows to watch offline</h1>
+            <h4 class="text-start lh-sm fs-3">
+              Save your favourites easily and always have something to watch.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

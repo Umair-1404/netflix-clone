@@ -1,3 +1,10 @@
+section{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
 .bg-img{
     background-image: url("images/bg.jpg");
     height: 100vh;
@@ -53,11 +60,10 @@ button{
     position: absolute;
     background-color: rgb(35, 35, 35);
 }
-.second-sec{
-    background-color: black;
-}
+
 .tv-grid{
     margin-top: 115px;
+    padding: 32px;
 }
 .tv-vid{
     position: relative;
@@ -65,20 +71,35 @@ button{
     left: 85px;
     width: 465px;
 }
-.third-sec{
-    background-color: black;
+.remote{
+    position: absolute;
+    top: 1000px;
+    right: 225px;
 }
 .div-over-img {
     display: flex;
     align-items: center;
-    width: 350px;
+    width: 340px;
     height: 100px;
     position: absolute;
     top: 1600px;
-    left: 250px;
-    padding: 5px;
-    justify-content: space-between;
-    border: 2px gray solid;
-    border-radius: 17px;
+    left: 258px;
+    padding: 9px;
+    justify-content: space-evenly;
+    border: 1.5px gray solid;
+    border-radius: 16px;
     background-color: black;
+}
+.phone-box{
+    margin: 16px;
+}
+.gif{
+    padding-right: 10px;
+}
+
+.mac-vid{
+    position: relative;
+    top: 38px;
+    width: 580px;
+    height: 452px;
 }

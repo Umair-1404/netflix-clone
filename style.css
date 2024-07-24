@@ -1,151 +1,187 @@
-section{
-    background-color: black;
+section {
+  background-color: black;
 }
 
-a{
-    text-decoration: none;
-}
-.bg-img{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.23) 0%, rgba(0,0,0,0.85) 100%),url("images/bg.jpg");
-    height: 100vh;
-    
-    /* width: 100%; */
-    background-repeat: no-repeat;
-}
-#lang{
-    background-color: black;
-    color: white;
-    padding: 5px;
-    margin: 10px;
-    width: 115px;
-    height: 42px;
-    text-align: center;
-    border-radius: 5px;
-}
-.btn-top{
-    width: 100px;
-    border-radius: 5px;
-    height: 43px;
-}
-h1{
-    text-align: center;
-    line-height: 1.5;
-    font-size: 48px;
-    font-weight:900;
-    color: white;
-}
-h3,h4,h5{
-    color: white;
-    text-align: center;
-    line-height: 1.5;
-}
-.headers{
-    margin: 180px 80px;
-    text-align: center;
-}
-/* .email{
-    background-color: rgba(0, 0, 0,0.7);
-    color: white;
-    width: 290px;
-    height: 55px;
-    border: black;
-    padding-left: 22px;
-    /* text-align: center; */
-    /* font-size: 25px;
-    font-size: 15px;  */
-/* } */ 
-button{
-    background-color: red;
-    color: white;
-}
-.home-form{
-    margin: 10px 460px;
-   
-}
-.form-btn{
-    height: 58px;
-    width: 188px;
-    border: 0.5px solid white;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 20px;
-} 
-.breakpoint{
-    width: 100%;
-    height: 10px;
-    position: absolute;
-    background-color: rgb(35, 35, 35);
+a {
+  text-decoration: none;
 }
 
-.tv-grid{
-    margin-top: 115px;
-    padding: 32px;
+.bg-img {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.23) 0%,
+      rgba(0, 0, 0, 0.85) 100%
+    ),
+    url("images/bg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
 }
-.tv-vid{
-    position: relative;
-    bottom: 382px;
-    left: 85px;
-    width: 465px;
+
+#lang {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  width: 115px;
+  height: 42px;
+  text-align: center;
+  border-radius: 5px;
 }
-.remote{
-    position: absolute;
-    top: 1105px;
-    right: 310px;
+
+.btn-top {
+  width: 100px;
+  border-radius: 5px;
+  height: 43px;
 }
+
+h1 {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+}
+
+h3,
+h4,
+h5 {
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.headers {
+  margin: 180px 80px;
+  text-align: center;
+}
+
+button {
+  background-color: red;
+  color: white;
+}
+
+.home-form {
+  margin: 10px 390px;
+}
+
+.form-btn {
+  height: 58px;
+  width: 188px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.breakpoint {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  background-color: rgb(35, 35, 35);
+}
+
+.tv-grid {
+  margin-top: 115px;
+  padding: 32px;
+}
+
+.tv-vid {
+  position: relative;
+  bottom: 382px;
+  left: 85px;
+  width: 465px;
+}
+
+.remote {
+  position: absolute;
+  top: 1100px;
+  right: 225px;
+}
+
 .div-over-img {
-    display: flex;
-    align-items: center;
-    width: 340px;
-    height: 100px;
-    position: absolute;
-    top: 1675px;
-    left: 348px;
-    padding: 9px;
-    justify-content: space-evenly;
-    border: 1.5px gray solid;
-    border-radius: 16px;
-    background-color: black;
-}
-.phone-box{
-    margin: 16px;
-}
-.gif{
-    padding-right: 10px;
+  display: flex;
+  align-items: center;
+  width: 340px;
+  height: 100px;
+  position: absolute;
+  top: 1800px;
+  left: 265px;
+  padding: 9px;
+  justify-content: space-evenly;
+  border: 1.5px gray solid;
+  border-radius: 16px;
+  background-color: black;
 }
 
-.mac-vid{
-    position: relative;
-    top: 38px;
-    width: 580px;
-    height: 452px;
-}
-.sixth-sec{
-    padding-top: 50px 0px;
-}
-.accordion .accordion-item{
-    background-color: rgb(45, 45, 45); 
-    color: white;
-    font-size: 25px;
-    font-weight: 400;
-    margin-bottom: 10px; 
-}
-.accordion .accordion-item .accordion-header .accordion-button{
-    background-color: rgb(45, 45, 45);
-} 
-
-.nav-form{
-    text-align: center;
-    margin: 20px;
+.phone-box {
+  margin: 16px;
 }
 
-.nav-email{
-    background-color: rgb(45, 45, 45);
-    width: 360px;
-    height: 57px;
-    border: 0.1px solid white;
-    border-radius: 3px;
+.gif {
+  padding-right: 10px;
 }
 
-.footers{
-    margin: 30px;
+.mac-vid {
+  position: relative;
+  top: 38px;
+  width: 580px;
+  height: 452px;
+}
+
+.sixth-sec {
+  padding-top: 50px 0px;
+}
+
+.accordion .accordion-item {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.accordion .accordion-item .accordion-header .accordion-button {
+  background-color: rgb(45, 45, 45);
+}
+
+.nav-form {
+  text-align: center;
+  margin: 20px;
+}
+
+.nav-email {
+  background-color: rgb(45, 45, 45);
+  width: 360px;
+  height: 57px;
+  border: 0.1px solid white;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+
+.footers {
+  margin: 30px;
+}
+
+.seventh-sec {
+  padding: 75px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-sec,
+.footer-links {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 3;
+  text-decoration: underline;
+}
+
+#lang1 {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 15px 0px;
+  width: 115px;
+  height: 42px;
+  text-align: center;
+  border-radius: 5px;
 }

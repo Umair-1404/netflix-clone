@@ -50,10 +50,14 @@ h5 {
   line-height: 1.5;
 }
 
-.headers {
+.bg-head-text{
+  margin-top: 120px;
+}
+
+/* .headers {
   margin: 180px 80px;
   text-align: center;
-}
+} */
 
 button {
   background-color: red;
@@ -61,7 +65,10 @@ button {
 }
 
 .home-form {
-  margin: 10px 390px;
+  /* margin: 10px 390px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .form-btn {
@@ -104,7 +111,7 @@ button {
   width: 340px;
   height: 100px;
   position: absolute;
-  top: 1800px;
+  top: 238%;
   left: 265px;
   padding: 9px;
   justify-content: space-evenly;
@@ -168,6 +175,7 @@ button {
   font-weight: 600;
 }
 
+
 .footer-sec,
 .footer-links {
   color: rgba(255, 255, 255, 0.7);
@@ -184,4 +192,49 @@ button {
   height: 42px;
   text-align: center;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  
+h1 {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 38px;
+  font-weight: 900;
+  color: white;
+}
+
+  img, video{
+    width: 100%;
+    height: auto;
+  }
+
+  .tv-vid {
+    position: relative;
+    position: relative;
+    bottom: 132px;
+    /* width: 100%; */
+    width: 158px;
+    left: 33px;
+  }
+
+  .div-over-img{
+    width: 270px;
+    height: 92px;
+    position: absolute;
+    top: 253%;
+    left: 3%;
+  }
+
+  .phone-box{
+    width: 50px;
+  }
+
+  .box-shot-mobile{
+    width: 440px;
+    position: absolute;
+    right: 6%;
+  }
+
 }

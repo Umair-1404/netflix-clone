@@ -54,11 +54,6 @@ h5 {
   margin-top: 120px;
 }
 
-/* .headers {
-  margin: 180px 80px;
-  text-align: center;
-} */
-
 button {
   background-color: red;
   color: white;
@@ -87,6 +82,10 @@ button {
   background-color: rgb(35, 35, 35);
 }
 
+.tv{
+  height: 550px;
+}
+
 .tv-grid {
   margin-top: 115px;
   padding: 32px;
@@ -111,8 +110,8 @@ button {
   width: 340px;
   height: 100px;
   position: absolute;
-  top: 238%;
-  left: 265px;
+  top: 228%;
+  left: 260px;
   padding: 9px;
   justify-content: space-evenly;
   border: 1.5px gray solid;
@@ -196,7 +195,9 @@ button {
 
 @media only screen and (max-width: 768px) {
 
-  
+.form-btn{
+  font-size: 16px;
+}  
 h1 {
   text-align: center;
   line-height: 1.5;
@@ -209,21 +210,23 @@ h1 {
     width: 100%;
     height: auto;
   }
+  
+  .tv{
+    height: auto;
+  }
 
   .tv-vid {
     position: relative;
-    position: relative;
-    bottom: 132px;
-    /* width: 100%; */
-    width: 158px;
-    left: 33px;
+    bottom: 218px;
+    width: 266px;
+    left: 49px;
   }
 
   .div-over-img{
     width: 270px;
     height: 92px;
     position: absolute;
-    top: 253%;
+    top: 236%;
     left: 3%;
   }
 
@@ -236,5 +239,21 @@ h1 {
     position: absolute;
     right: 6%;
   }
+  .mac-vid {
+    width: 360px;
+    height: auto;
+  }
 
+  .accordion-button{
+    padding: 1rem 0.5rem;
+  }
+  
+  .footers {
+    margin: 10px;
+  }
+
+  .seventh-sec {
+    padding: 40px;
+  }
+  
 }

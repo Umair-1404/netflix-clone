@@ -228,17 +228,18 @@ button {
   }
   .tv-vid {
     position: relative;
-    bottom: 231px;
-    width: 284px;
-    left: 51px;
+    bottom: 51%;
+    width: 73%;
+    height: 36%;
+    left: 13%;
   }
 
   .div-over-img {
-    width: 256px;
-    height: 75px;
+    width: 72%;
+    height: 12%;
     position: absolute;
-    top: 213%;
-    left: 13%;
+    top: 208%;
+    left: 12%;
   }
 
   .phone-box {
@@ -246,9 +247,9 @@ button {
   }
 
   .box-shot-mobile {
-    width: 425px;
+    width: 112%;
     position: relative;
-    right: 13%;
+    right: 9%;
   }
 
   .mac-vid {
